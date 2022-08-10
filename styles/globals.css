@@ -1,9 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: cursive;
+    background-color: #ffc400;
+}
+
+@font-face {
+  font-family: ChelaOne; /*a name to be used later*/
+  src: url('/ChelaOne-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: JustForFun; /*a name to be used later*/
+  src: url('/JustForFun-Regular.ttf'); /*URL to font*/
 }
 
 a {
